@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                     // Checkout code from Git
-                    git branch: 'main', url: 'https://github.com/Apeksha-Math/Jenkins_multibranch.git'
+                    git branch: 'main', url: 'https://github.com/Apeksha-Math/multibranch.git'
                 }
             }
         }
